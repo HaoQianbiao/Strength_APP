@@ -22,6 +22,7 @@
     self.title = @"tete";
     
     self.button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    self.button.frame = CGRectMake(100, 100, 100, 30);
     [self.view addSubview:self.button];
 }
 

@@ -20,6 +20,8 @@
     self.view.backgroundColor = [UIColor orangeColor];
     
     self.title = @"tete";
+    
+    self.button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 }
 
 

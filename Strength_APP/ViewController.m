@@ -23,6 +23,7 @@
     
     self.button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     self.button.frame = CGRectMake(100, 100, 100, 30);
+    [self.button setTitle:@"123" forState:UIControlStateNormal];
     [self.view addSubview:self.button];
 }
 
